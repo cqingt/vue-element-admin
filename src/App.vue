@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div id="nav"></div>
+    <!-- <div id="nav"></div> -->
     <router-view />
   </div>
 </template>
@@ -22,5 +22,8 @@
       color: #42b983;
     }
   }
+}
+body {
+  margin: 0;
 }
 </style>
